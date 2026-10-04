@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "fastxray",
+  "version": "${version}",
+  "name": "Fast X-Ray",
+  "description": "Numpad 0: toggle X-Ray resource pack. Numpad 1: toggle entity hitboxes.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.fastxray.FastXrayClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
